@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ASPNET.Core e Swagger
+title: AspNet.Core e Swagger
 categories: [csharp, dotnetcore, swagger]
 date: 2019-01-30 18:35:13 -0300
 background: ''
@@ -66,7 +66,9 @@ Importante: Não se esqueça de habilitar a geração do xml de comentários.
   </row>
 </div> 
 
+<br>
 ### It Works!  
+<br>
   
 <div>
   <row>
