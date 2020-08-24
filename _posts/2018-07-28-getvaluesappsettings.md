@@ -17,22 +17,42 @@ sua localização de acordo com sua necessidade, desde que informe o mesmo no *C
 
 No nosso exemplo o arquivo receberá o nome *appsettings.json* e terá a seguinte estrutura:  
 
-> ![an image alt text]({{ site.baseurl }}/img/posts/appsettings/ex1.jpg "an image title")  
-  
+<div>
+  <row>
+     <img src="/img/posts/ex1.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
+
 ### Option Class  
 
 O próximo passo é criar sua classe com a estrutura do seu arquivo, nesse exemplo iremos recuperar a chave *AppSettings* e suas propriedades,
 nossa classe fica assim:  
   
-> ![an image alt text]({{ site.baseurl }}/img/posts/appsettings/ex2.jpg "an image title")  
+<div>
+  <row>
+     <img src="/img/posts/ex2.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
   
 Na classe *Startup.cs* inclua no método *ConfigureServices()* para registrar sua configuração:  
 
-> ![an image alt text]({{ site.baseurl }}/img/posts/appsettings/ex3.jpg "an image title")  
+<div>
+  <row>
+     <img src="/img/posts/ex3.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
   
 No seu *Controller* crie a propiedade que irá receber sua configuração e atribua um valor através do construtor e acesse os valores conforme sua necessidade.  
   
-> ![an image alt text]({{ site.baseurl }}/img/posts/appsettings/ex4.jpg "an image title")  
+<div>
+  <row>
+     <img src="/img/posts/ex4.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
   
 ### Importante  
   
