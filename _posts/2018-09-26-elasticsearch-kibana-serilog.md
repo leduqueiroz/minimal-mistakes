@@ -168,11 +168,19 @@ Em seguida selecione o campo **timestastamp** e clique em **Create index pattern
   
 Nesse momento já é possível visualizar os logs acessando a opção **Discovery**  
  
-> ![an image alt text]({{ site.baseurl }}/img/post/kibana0.jpg "an image title")  
-  
-  
-> ![an image alt text]({{ site.baseurl }}/img/post/kibana1.jpg "an image title")  
-  
-  
-  
+ <div>
+  <row>
+     <img src="/img/posts/kibana0.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
+
+ <div>
+  <row>
+     <img src="/img/posts/kibana1.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
+
+ 
 Agora é com vocês, aprofunde seus estudos e divirta-se!  
