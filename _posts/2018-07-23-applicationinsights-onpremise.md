@@ -19,7 +19,12 @@ A maneira mais simpples é instalar o **Application Insights Status Monitor** no
 o download da aplicação pode ser realizado [AQUI](http://wordpress.redirectingat.com/?id=725X1342&site=unhandled.wordpress.com&xs=1&isjs=1&url=http%3A%2F%2Fgo.microsoft.com%2Ffwlink%2F%3FLinkId%3D506648&xguid=21949ab568485ffd7d916bc78a75e173&xuuid=c94fe1ddd6f0b9a518b9367c263d7dd2&xsessid=752a0001685a0b2de8a9959be6343695&xcreo=0&xed=0&sref=https%3A%2F%2Funhandled.wordpress.com%2F2018%2F02%2F01%2Fusing-azure-application-insights-with-on-premises-servers%2F&xtz=180&jv=13.6.5&bv=2.5.1
 ).  
 
-> ![an image alt text]({{ site.baseurl }}/img/posts/aiazure1.jpg "an image title")  
+<div>
+  <row>
+     <img src="/img/posts/aiazure1.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
 
 ### Configuração  
 
@@ -27,19 +32,44 @@ Depois de instalado o monitor irá exiti as aplicações publicadas em seu servi
 
 _OBS: Caso necessário defina o acesso para o grupo "Performance Monitor Users"._  
 
-> ![an image alt text]({{ site.baseurl }}/img/posts/aisecutity.jpg "an image title")  
+<div>
+  <row>
+     <img src="/img/posts/aisecutity.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
 
 Após selecionar sua aplicação acesse sua conta da Microsoft Azure e configura um novo **resouce** ou selecione um existente.  
 
-> ![an image alt text]({{ site.baseurl }}/img/posts/ailogin.jpg "an image title")  
-> ![an image alt text]({{ site.baseurl }}/img/posts/airesource.jpg "an image title")  
+<div>
+  <row>
+     <img src="/img/posts/ailogin.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
+
+<div>
+  <row>
+     <img src="/img/posts/airesource.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
 
 Finalizado a configuração o agente iniciará o envio dos dados para a instância de Azure Application Insights.
 
 #### Visualização  
 
-> ![an image alt text]({{ site.baseurl }}/img/posts/aigraph1.jpg "an image title")  
-> ![an image alt text]({{ site.baseurl }}/img/posts/aigraph2.jpg "an image title")  
-
+<div>
+  <row>
+     <img src="/img/posts/aigraph1.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
+<div>
+  <row>
+     <img src="/img/posts/aigraph2.jpg" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+<br>
 
 
