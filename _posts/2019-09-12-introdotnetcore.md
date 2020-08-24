@@ -17,6 +17,7 @@ A ideia principal é apresentar um pouco do conceito que aplicamos nos projetos 
       ![an image alt text]({{ site.baseurl }}/img/posts/aspnetcore.gif "an image title") 
   </row>
 </div>
+
 Apresentei alguns conceitos divididos como:  
 
 - .NetCore  
