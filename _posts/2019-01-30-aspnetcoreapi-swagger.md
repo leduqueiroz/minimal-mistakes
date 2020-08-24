@@ -9,12 +9,22 @@ subtitle: ''
 
 É simples, rápido e fácil documentar suas aplicações com o swagger! Eu provo aqui:  
   
-Primeiro adicione a referência **Swashbuckle.AspNetCore** no seu projeto.  
-> ![an image alt text]({{ site.baseurl }}/img/posts/sw2.jpg "an image title")  
-  
+Primeiro adicione a referência **Swashbuckle.AspNetCore** no seu projeto.
+
+<div>
+  <row>
+     <img src="/img/posts/sw2.gif" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+
 Adicione no seu projeto a classe: **SwaggerServiceExtensions** com os métodos: AddSwaggerDocumentation e UseSwaggerDocumentation  
-> ![an image alt text]({{ site.baseurl }}/img/posts/sw3.jpg "an image title")  
-    
+
+<div>
+  <row>
+     <img src="/img/posts/sw3.gif" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
+  
 Adicione o método **AddSwaggerDocumentation** no método **ConfigureServices** da classe **Startup**   
 Em seguida adicione o método **UseSwaggerDocumentation** no método **Configure** da classe **Startup** e confire em app.Run o swagger para ser a primeira rota acessada por sua aplicação.  
 
@@ -49,10 +59,19 @@ public static class SwaggerServiceExtensions
 ```  
   
 Importante: Não se esqueça de habilitar a geração do xml de comentários.  
-> ![an image alt text]({{ site.baseurl }}/img/posts/sw4.jpg "an image title")  
+
+<div>
+  <row>
+     <img src="/img/posts/sw4.gif" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div> 
 
 ### It Works!  
   
-> ![an image alt text]({{ site.baseurl }}/img/posts/sw5.jpg "an image title")  
+<div>
+  <row>
+     <img src="/img/posts/sw5.gif" style="display: block; margin: 0 auto; width: 90%"> 
+  </row>
+</div>
   
 
