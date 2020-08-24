@@ -15,7 +15,7 @@ Nessa série de posts vou listar algumas das melhorias disponíveis no C# 7.0 e 
 
 A partir dessa versão do c# é possível que seu método **main** receba a instrução **await**. 
 Isso faz com que o ponto de entrada de sua aplicação se torne assíncrono. 
-Para isso basta que seu método retorne uma **Task<>** ou **Task<int>**  
+Para isso basta que seu método retorne uma **Task<>** ou **Task< int >**  
 
 #### Quando utilizar?
 
