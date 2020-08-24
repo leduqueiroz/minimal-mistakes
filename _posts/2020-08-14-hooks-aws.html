@@ -1,0 +1,67 @@
+---
+layout: post
+title: "Eventos de webhook"
+subtitle: ".Net Core + AWS - Parte 1"
+date: 2020-04-20 13:00:00 -0300
+background: ''
+---
+<!DOCTYPE html>
+<head></head>
+<body
+	<h1>Iniciando nossa biblioteca</h1>
+    <p>
+	    Nesse artigo vamos criar uma estrutura com .Net core e os serviços da AWS para notificar eventos de webhook para determinadas urls 
+		(posteriormente podemos incluir notificações para sockets, emails, etc).
+    </p>
+    <p>
+        <b>1 -</b> Primeiramente vamos criar nosso projeto.
+		<b>2 -</b> O próximo passo é definir a estrutura dentro da nossa biblioteca criando as pastas:
+		- Application
+		- Controller
+		- Domain
+		- Infra
+		<b>3 -</b> Crie a pasta Configuration e dentro da mesma uma outra chamada Internal.
+     	<b>4 -</b> Em Internal crie a interface IHookConfiguration com a seguinte estrutura:
+		<div>
+		  <row>
+			 <img src="/img/posts/hook/01.png" style="display: block; margin: 0 auto; width: 90%"> 
+		  </row>
+		</div>
+		<br>	
+		<b>5 -</b> Em Internal crie também a interface ITopicAuth com a seguinte estrutura:
+		<div>
+		  <row>
+			 <img src="/img/posts/hook/02.png" style="display: block; margin: 0 auto; width: 90%"> 
+		  </row>
+		</div>
+		<br>
+		<b>6 -</b> Ainda em Internal crie a classe TopicAuth com a seguinte estrutura:
+		<div>
+		  <row>
+			 <img src="/img/posts/hook/03.png" style="display: block; margin: 0 auto; width: 90%"> 
+		  </row>
+		</div>
+		<br>		
+		<b>7 -</b> Finalizando, ainda em Internal, crie a classe HookConfiguration com a seguinte estrutura:
+		<div>
+		  <row>
+			 <img src="/img/posts/hook/04.png" style="display: block; margin: 0 auto; width: 90%"> 
+		  </row>
+		</div>
+		<br>
+		<b>8 -</b> Em Configuration crie a classe HookConfigurationBuilder com a seguinte estrutura:
+		<div>
+		  <row>
+			 <img src="/img/posts/hook/05.png" style="display: block; margin: 0 auto; width: 90%"> 
+		  </row>
+		</div>
+		<br>
+		Vamos utilizar esse padrão, conhecido como <b>[Builder Pattern](https://garywoodfine.com/the-builder-pattern-net-core/)</b> para recuperar os dados do app.settings e configurar a nossa biblioteca.
+		<div>
+		  <row>
+			 <img src="/img/posts/hook/01.gif" style="display: block; margin: 0 auto; width: 90%"> 
+		  </row>
+		</div>
+		<br>
+    </p>
+</body>
