@@ -6,28 +6,35 @@ date: 2020-04-20 13:00:00 -0300
 background: ''
 ---
 <!DOCTYPE html>
-<head></head>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
 <body
-	<h1>Iniciando nossa biblioteca</h1>
+    <p>
+	  <h2>Iniciando nossa biblioteca</h2>
+	</p>
     <p>
 	    Nesse artigo vamos criar uma estrutura com .Net core e os serviços da AWS para notificar eventos de webhook para determinadas urls 
 		(posteriormente podemos incluir notificações para sockets, emails, etc).
     </p>
     <p>
         <b>1 -</b> Primeiramente vamos criar nosso projeto.
+		<br>
 		<b>2 -</b> O próximo passo é definir a estrutura dentro da nossa biblioteca criando as pastas:
-		- Application
-		- Controller
-		- Domain
-		- Infra
+		  <ul>
+			  <li>Application</li>
+			  <li>Controller</li>
+			  <li>Domain</li>
+			  <li>Infra</li>
+          </ul>	
 		<b>3 -</b> Crie a pasta Configuration e dentro da mesma uma outra chamada Internal.
+		<br>
      	<b>4 -</b> Em Internal crie a interface IHookConfiguration com a seguinte estrutura:
 		<div>
 		  <row>
-			 <img src="/img/posts/hook/01.png" style="display: block; margin: 0 auto; width: 90%"> 
+			 <img src="/img/posts/hook/01.png"> 
 		  </row>
 		</div>
-		<br>	
 		<b>5 -</b> Em Internal crie também a interface ITopicAuth com a seguinte estrutura:
 		<div>
 		  <row>
