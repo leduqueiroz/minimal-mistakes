@@ -60,3 +60,4 @@ Com o framework .NET Core o sistema de configuração é facilitado e mais flex�
 de configuração que são detalhadas no site oficial da Microsoft: <https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration>.  
   
 **Bons estudos!**  
+
