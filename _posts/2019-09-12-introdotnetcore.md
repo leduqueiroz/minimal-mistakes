@@ -12,8 +12,11 @@ Boa noite pessoal!
 Durante o mês de setembro estou apoiando um time de desenvolvimento Delphi em sua migração para .Net e .Net Core.  
 A ideia principal é apresentar um pouco do conceito que aplicamos nos projetos de inovação e trazer todos para o mundo do .Net Core!  
 
-![an image alt text]({{ site.baseurl }}/img/posts/aspnetcore.gif "an image title")  
-
+<div>
+  <row>
+      ![an image alt text]({{ site.baseurl }}/img/posts/aspnetcore.gif "an image title") 
+  </row>
+</div>
 Apresentei alguns conceitos divididos como:  
 
 - .NetCore  
