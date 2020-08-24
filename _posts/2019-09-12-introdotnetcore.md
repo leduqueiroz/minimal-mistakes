@@ -14,7 +14,7 @@ A ideia principal é apresentar um pouco do conceito que aplicamos nos projetos 
 
 <div>
   <row>
-      ![an image alt text]({{ site.baseurl }}/img/posts/aspnetcore.gif "an image title") 
+     <img src="/img/posts/aspnetcore.gif" style="display: block; margin: 0 auto; width: 60%"> 
   </row>
 </div>
 
