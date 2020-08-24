@@ -13,7 +13,7 @@ Primeiro adicione a referência **Swashbuckle.AspNetCore** no seu projeto.
 
 <div>
   <row>
-     <img src="/img/posts/sw2.gif" style="display: block; margin: 0 auto; width: 90%"> 
+     <img src="/img/posts/sw2.jpg" style="display: block; margin: 0 auto; width: 90%"> 
   </row>
 </div>
 
@@ -21,7 +21,7 @@ Adicione no seu projeto a classe: **SwaggerServiceExtensions** com os métodos: 
 
 <div>
   <row>
-     <img src="/img/posts/sw3.gif" style="display: block; margin: 0 auto; width: 90%"> 
+     <img src="/img/posts/sw3.jpg" style="display: block; margin: 0 auto; width: 90%"> 
   </row>
 </div>
   
@@ -62,7 +62,7 @@ Importante: Não se esqueça de habilitar a geração do xml de comentários.
 
 <div>
   <row>
-     <img src="/img/posts/sw4.gif" style="display: block; margin: 0 auto; width: 90%"> 
+     <img src="/img/posts/sw4.jpg" style="display: block; margin: 0 auto; width: 90%"> 
   </row>
 </div> 
 
@@ -70,7 +70,7 @@ Importante: Não se esqueça de habilitar a geração do xml de comentários.
   
 <div>
   <row>
-     <img src="/img/posts/sw5.gif" style="display: block; margin: 0 auto; width: 90%"> 
+     <img src="/img/posts/sw5.jpg" style="display: block; margin: 0 auto; width: 90%"> 
   </row>
 </div>
   
