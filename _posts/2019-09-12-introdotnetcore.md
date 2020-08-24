@@ -14,7 +14,7 @@ A ideia principal é apresentar um pouco do conceito que aplicamos nos projetos 
 
 <div>
   <row>
-     <img src="/img/posts/aspnetcore.gif" style="display: block; margin: 0 auto;"> 
+     <img src="/img/posts/aspnetcore.gif" style="display: block; margin: 0 auto; width: 90%"> 
   </row>
 </div>
 
