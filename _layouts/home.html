@@ -2,6 +2,23 @@
 layout: default
 ---
 
+<style>
+  .user {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.profile-img {
+  background-image: url('http://placehold.it/200x400');
+}
+</style>
+
 <!-- Page Header -->
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
@@ -12,6 +29,7 @@ layout: default
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="profile-img"></div>
           <div class="site-heading">
             <h1>{{ site.title }}</h1>
             {% if site.description %}
