@@ -3,19 +3,9 @@ layout: default
 ---
 
 <style>
-  .user {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.profile-img {
-  background-image: url('http://placehold.it/200x400');
+.profile--cover {
+  width: 30%;
+  height: 30%;
 }
 </style>
 
@@ -30,7 +20,7 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <div class="profile-img"></div>
+            <img src="img/rounded.png" alt="" class="profile--cover" >
             <h1>{{ site.title }}</h1>
             {% if site.description %}
             <span class="subheading">{{ site.description }}</span>
@@ -66,8 +56,8 @@ layout: default
             {{ site.author }}
             {% endif %}
             em
-            
-            {{ post.date | date: '%d/%m/%Y' }} &middot; {% include read_time.html content=post.content %}            
+
+            {{ post.date | date: '%d/%m/%Y' }} &middot; {% include read_time.html content=post.content %}
           </p>
         </article>
 
