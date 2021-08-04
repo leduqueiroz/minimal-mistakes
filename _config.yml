@@ -21,9 +21,10 @@
 title: Eduardo Queiróz
 email: luiz.eduardo.queiroz@outlook.com
 description: >
-  13 anos desenvolvendo software, 34 anos jogando playstation. 
-  1 filha, 1 árvore, e correndo atrás do primeiro livro (ou não!). 
-  🎮 Desenvolvendo alguns jogos com a DZ9 Games.
+  This is a very long sentence
+  that spans several lines in the YAML
+  but which will be rendered as a string
+  with only a single carriage return appended to the end.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leduqueirooz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
