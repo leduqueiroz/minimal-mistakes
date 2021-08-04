@@ -20,13 +20,15 @@
 
 title: Eduardo Queiróz
 email: luiz.eduardo.queiroz@outlook.com
-description: |-
-  very "long"
-  'string' with
+description: |+\n
+  Several lines of text,\n
+  with some "quotes" of various 'types',\n
+  and also a blank line:\n
+  \n
+  plus another line at the end.\n
+  \n
+  \n
 
-  paragraph gap, \n and        
-  spaces.
-  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leduqueirooz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: eduqueirooz
