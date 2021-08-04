@@ -20,7 +20,7 @@
 
 title: Eduardo Queiróz
 email: luiz.eduardo.queiroz@outlook.com
-description: >
+description: >-
   This is a very long sentence
   that spans several lines in the YAML
   but which will be rendered as a string
