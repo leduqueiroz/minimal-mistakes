@@ -20,11 +20,11 @@
 
 title: Eduardo Queiróz
 email: luiz.eduardo.queiroz@outlook.com
-description:
-  This is a very long sentence \n
-  that spans several lines in the YAML \n
-  but which will be rendered as a string \n
-  with only a single carriage return appended to the end. \n
+description: >
+  This is a very long sentence\n
+  that spans several lines in the YAML\n
+  but which will be rendered as a string\n
+  with only a single carriage return appended to the end.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leduqueirooz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
