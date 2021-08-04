@@ -24,7 +24,7 @@ description: #>-  this means to ignore newlines until "baseurl:"
   13 anos desenvolvendo software, 3 décadas apreciando uma boa culinária, 34 anos jogando playstation. 
   Um pouco geek e meio nerd.
   1 filha, 1 árvore, e correndo atrás do primeiro livro (ou não)!
-  Desenvolvendo alguns jogos com a DZ9 Games - https://www.dz9games.com
+  🎮 Desenvolvendo alguns jogos com a DZ9 Games.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leduqueirooz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
