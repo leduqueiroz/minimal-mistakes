@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Eventos de webhook"
-subtitle: ".Net Core + AWS - Parte 1"
-date: 2020-04-20 13:00:00 -0300
+title: "Novo curso em Udemy.com"
+subtitle: "C# Minimal API com .NET 6"
+date: 2022-02-07 13:00:00 -0300
+category: .Net
 background: ''
 ---
 <!DOCTYPE html>
