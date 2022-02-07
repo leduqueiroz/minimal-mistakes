@@ -1,10 +1,9 @@
 ---
 layout: post
-title: C# Minimal API com .NET 6 em Udemy.com
-category: .NET
-date: 2022-02-07 13:00:00 -0300
+title: "Eventos de webhook"
+subtitle: ".Net Core + AWS - Parte 1"
+date: 2020-04-20 13:00:00 -0300
 background: ''
-subtitle: ''
 ---
 <!DOCTYPE html>
 <head>
@@ -12,30 +11,77 @@ subtitle: ''
 </head>
 <body
     <p>
-      <h2>C# Minimal API com .NET 6</h2>
+	  <h2>Iniciando nossa biblioteca</h2>
+	</p>
+    <p>
+	    Nesse artigo vamos criar uma estrutura com .Net core e os serviços da AWS para notificar eventos de webhook para determinadas urls 
+		(posteriormente podemos incluir notificações para sockets, emails, etc).
     </p>
     <p>
-Em uma série de encontros disponíveis <a href="https://www.udemy.com/course/minimal-api-com-net-6/?referralCode=E8B428E073504215E9C1">aqui</a>, 
-    <a href="https://www.udemy.com/course/minimal-api-com-net-6/?referralCode=E8B428E073504215E9C1">aqui</a> ou 
-    <a href="https://www.udemy.com/course/minimal-api-com-net-6/?referralCode=E8B428E073504215E9C1">ou aqui!</a>, preparei uma maneira rápida de assimilar a nova feature da Microsoft intitulada de Minimal APIs. 
-    Esse novo template é uma maneira alternativa de construir serviços HTTP. Ele não substitui o ASP.NET Core, apenas trás uma nova abordagem para a criação de micro serviços com dependências mínimas. 
-    </p>
-    <p>
-        <b>1 -</b> Ao terminar esse curso você será capaz de:
+        <b>1 -</b> Primeiramente vamos criar nosso projeto.
 		<br>
+		<b>2 -</b> O próximo passo é definir a estrutura dentro da nossa biblioteca criando as pastas:
 		  <ul>
-			  <li>Reduzir complexidade do seu código</li>
-			  <li>Abraçar o minimalismo</li>
-			  <li>Garantir escalabilidade</li>
-                  </ul>
-    </p>
-    <p>
-        <b>1 -</b> Ao terminar esse curso você será capaz de:
+			  <li>Application</li>
+			  <li>Controller</li>
+			  <li>Domain</li>
+			  <li>Infra</li>
+          </ul>	
+		<b>3 -</b> Crie a pasta Configuration e dentro da mesma uma outra chamada Internal.
 		<br>
-		  <ul>
-			  <li>Reduzir complexidade do seu código</li>
-			  <li>Abraçar o minimalismo</li>
-			  <li>Garantir escalabilidade</li>
-                  </ul>
+     	<b>4 -</b> Em Internal crie a interface IHookConfiguration com a seguinte estrutura:
+		<div style="margin-top:15px; margin-bottom:15px">
+		  <row>
+			 <img src="/img/posts/hook/01.png"> 
+		  </row>
+		</div>
+		<b>5 -</b> Em Internal crie também a interface ITopicAuth com a seguinte estrutura:
+		<div style="margin-top:15px; margin-bottom:15px">
+		  <row>
+			 <img src="/img/posts/hook/02.png"> 
+		  </row>
+		</div>
+		<b>6 -</b> Ainda em Internal crie a classe TopicAuth com a seguinte estrutura:
+		<div style="margin-top:15px; margin-bottom:15px">
+		  <row>
+			 <img src="/img/posts/hook/03.png"> 
+		  </row>
+		</div>
+		<b>7 -</b> Finalizando, ainda em Internal, crie a classe HookConfiguration com a seguinte estrutura:
+		<div style="margin-top:15px; margin-bottom:15px">
+		  <row>
+			 <img src="/img/posts/hook/04.png"> 
+		  </row>
+		</div>
+		<b>8 -</b> Em Configuration crie a classe HookConfigurationBuilder com a seguinte estrutura:
+		<div style="margin-top:15px; margin-bottom:15px">
+		  <row>
+			 <img src="/img/posts/hook/05.png"> 
+		  </row>
+		</div>
+		Vamos utilizar o padrão conhecido como <b><a href="https://garywoodfine.com/the-builder-pattern-net-core/">Builder Pattern</a></b> 
+		para recuperar os dados do app.settings e configurar a nossa biblioteca.
+		<div style="margin-top:15px; margin-bottom:15px">
+		  <row>
+			 <img src="/img/posts/hook/01.gif" style="display: block; margin: 0 auto; width: 90%"> 
+		  </row>
+		</div>
+		<br>
     </p>
+	<p>
+	  <b>9 -</b>  Para finalizar a primeira parte vamos criar a classe WebHookExtensions com a seguinte estrutura:
+	  	<div style="margin-top:15px; margin-bottom:15px">
+		  <row>
+			 <img src="/img/posts/hook/06.png"> 
+		  </row>
+		</div>
+		Nesse ponto para qualquer outra aplicação utilizar nossa biblioteca de notificações por webhook 
+		basta adicionar o método AddWebHook() no Startup. 
+	</p>
+	<p>
+	   Na próxima parte vamos configurar as camadas da Controller, Application, Domain e Infra da nossa biblioteca.	  
+	</p>
+	<p>
+	  <h2> Abraços e até lá!</h2>
+	</p>
 </body>
