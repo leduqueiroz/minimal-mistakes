@@ -6,8 +6,6 @@ date: 2022-02-07 13:00:00 -0300
 background: ''
 subtitle: ''
 ---
-
-
 <!DOCTYPE html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -37,13 +35,13 @@ subtitle: ''
     juntos eles irão auxiliar o registro de novos pacotes e o acompanhamento do tracking dos mesmo através de pontos de latitude e longiture.
   </p>
   <row>
-		<img src="https://raw.githubusercontent.com/leduqueiroz/MinimalAPI-Sample-Front/main/1.png"> 
+		<img src="https://raw.githubusercontent.com/leduqueiroz/MinimalAPI-Sample-Front/main/1.png" style="display: block; margin: 0 auto; width: 80%"> 
 	</row>
   <row>
-		<img src="https://raw.githubusercontent.com/leduqueiroz/MinimalAPI-Sample-Front/main/2.png"> 
+		<img src="https://raw.githubusercontent.com/leduqueiroz/MinimalAPI-Sample-Front/main/2.png" style="display: block; margin: 0 auto; width: 80%"> 
 	</row>
   <row>
-		<img src="https://raw.githubusercontent.com/leduqueiroz/MinimalAPI-Sample-Front/main/3.png"> 
+		<img src="https://raw.githubusercontent.com/leduqueiroz/MinimalAPI-Sample-Front/main/3.png" style="display: block; margin: 0 auto; width: 80%"> 
 	</row>  
 	<p>
 	  <h2> Abraços e espero vocês!</h2>
