@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "Novo curso na Udemy!"
-subtitle: "C# Minimal API com .NET 6"
-date: 2022-02-27 13:00:00 -0300
+title: C# Minimal API com .NET 6 em Udemy.com
+category: .NET
+date: 2022-02-07 13:00:00 -0300
 background: ''
+subtitle: ''
 ---
+
+
 <!DOCTYPE html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
