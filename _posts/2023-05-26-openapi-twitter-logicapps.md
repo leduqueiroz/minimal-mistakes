@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gerando engajamento para jogos indies com OpenApi + Twitter API + Azure LogicApps
-date: 2018-06-20 18:35:13 -0300
+date: 2023-05-26 14:40:00 -0300
 categories: [openai, twitter, azure]
 background: ''
 subtitle: ''
