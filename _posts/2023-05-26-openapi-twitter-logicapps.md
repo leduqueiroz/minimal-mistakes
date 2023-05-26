@@ -12,7 +12,8 @@ subtitle: ''
 
 Nesse exemplo, mostro como preparei todo esse ambiente e como você também pode otimizar a divulgação dos seus jogos, automatizar tweets criativos, interagir com seus seguidores e mantê-los atualizados com as últimas novidades! 🎮😍❤️
 
-Clique aqui para ler em português 👉🔗 [https://lnkd.in/eGCukwD7]
+Clique aqui para ler em português 👉🔗 [https://lnkd.in/eGCukwD7]  
+
 Click here to read in english 👉🔗 [https://lnkd.in/e2gqesYe]
 
 ![image](https://github.com/leduqueiroz/leduqueiroz.github.io/assets/85421934/e153792c-b0bb-4be3-a818-89738ea3dcc5)
